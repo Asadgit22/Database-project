@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav {
+    position: fixed;
+    background-color: skyblue;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 800px; /* Push the ul to the right */
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+  }
+
+
+
+.form-design{
+    padding-top: 200px !important;
+  }
+  .label-deg{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-bottom: 10px;
+  }
+  
+  .login-form{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 400px;
+  }
+  .title-deg{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .login-bg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  
+  
+  }
+
+.btn-primary-1{
+    padding: 5px 15px;
+}
